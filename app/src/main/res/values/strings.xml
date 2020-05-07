@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Taller Sqlite</string>
+    <string name="app_name">Parcial 2</string>
 
     <string-array name="estratos">
         <item> 1 </item>
