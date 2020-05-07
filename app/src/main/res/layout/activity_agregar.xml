@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AgregarRegistroActivity"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="REGISTRO "
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etCedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Cedula"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estrato"
+        android:textSize="12sp"
+        android:textColor="#7d7d7d"
+        android:layout_marginLeft="6dp"
+        />
+
+    <Spinner
+        android:id="@+id/spin_estrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/estratos"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewnuevo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel Educativo"
+        android:textSize="12sp"
+        android:textColor="#7d7d7d"
+        android:layout_marginLeft="6dp"
+        />
+
+    <Spinner
+        android:id="@+id/spin_educacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/educacion"
+        android:layout_marginBottom="8dp"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etSalario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Salario"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnAgregarRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Guardar"
+        android:background="#086F99"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/btnCancelarRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#086F99"
+        android:text="Cancelar"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

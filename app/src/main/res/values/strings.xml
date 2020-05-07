@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Taller Sqlite</string>
+
+    <string-array name="estratos">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+    </string-array>
+
+    <string-array name="educacion">
+        <item> Bachilerato </item>
+        <item> Pregrado </item>
+        <item> Maestria </item>
+        <item> Doctorado </item>
+    </string-array>
+
+</resources>
